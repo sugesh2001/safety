@@ -1,0 +1,230 @@
+2023-12-28 11:43:46,228 DEBUG cd frappe-live && python3 -m venv env
+2023-12-28 11:43:51,927 DEBUG cd frappe-live && /home/frappe/frappe-live/env/bin/python -m pip install --quiet --upgrade pip
+2023-12-28 11:43:57,119 DEBUG cd frappe-live && /home/frappe/frappe-live/env/bin/python -m pip install --quiet wheel
+2023-12-28 11:45:23,312 LOG Getting frappe-live
+2023-12-28 11:45:23,313 DEBUG cd frappe-live/apps && git clone https://github.com/AgnikulCosmos/frappe-live.git --branch develop --depth 1 --origin upstream
+2023-12-28 11:45:44,599 LOG Installing frappe
+2023-12-28 11:45:44,599 DEBUG cd /home/frappe/frappe-live && /home/frappe/frappe-live/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-live/apps/frappe 
+2023-12-28 11:47:02,242 DEBUG cd /home/frappe/frappe-live/apps/frappe && yarn install
+2023-12-28 11:47:55,509 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-12-28 11:47:55,527 DEBUG cd frappe-live && bench build
+2023-12-28 11:47:56,139 INFO /usr/local/bin/bench build
+2023-12-28 11:48:43,950 LOG setting up backups
+2023-12-28 11:48:44,176 LOG backups were set up
+2023-12-28 11:48:44,186 INFO Bench frappe-live initialized
+2023-12-28 11:48:44,921 INFO A newer version of bench is available: 5.17.2 → 5.19.0
+2023-12-28 11:49:22,465 INFO /usr/local/bin/bench get-app https://vigneshagnikul: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@github.com/AgnikulCosmos/erpnextlive --branch develop
+2023-12-28 11:49:22,479 LOG Getting erpnextlive
+2023-12-28 11:49:22,479 DEBUG cd ./apps && git clone https://vigneshagnikul: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@github.com/AgnikulCosmos/erpnextlive --branch develop --depth 1 --origin upstream
+2023-12-28 11:49:30,955 LOG Installing erpnext
+2023-12-28 11:49:31,728 DEBUG cd /home/frappe/frappe-live && /home/frappe/frappe-live/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-live/apps/erpnext 
+2023-12-28 11:49:43,784 DEBUG cd /home/frappe/frappe-live/apps/erpnext && yarn install
+2023-12-28 11:49:45,741 DEBUG bench build --app erpnext
+2023-12-28 11:49:45,905 INFO /usr/local/bin/bench build --app erpnext
+2023-12-28 11:49:55,856 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-12-28 11:49:56,118 INFO A newer version of bench is available: 5.17.2 → 5.19.0
+2023-12-28 11:50:44,870 INFO /usr/local/bin/bench get-app https://vigneshagnikul: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@github.com/AgnikulCosmos/fleet_management --branch develop_new
+2023-12-28 11:50:44,882 LOG Getting fleet_management
+2023-12-28 11:50:44,882 DEBUG cd ./apps && git clone https://vigneshagnikul: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@github.com/AgnikulCosmos/fleet_management --branch develop_new --depth 1 --origin upstream
+2023-12-28 11:50:57,402 LOG Installing fleet_management
+2023-12-28 11:50:57,668 DEBUG cd /home/frappe/frappe-live && /home/frappe/frappe-live/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-live/apps/fleet_management 
+2023-12-28 11:51:01,169 DEBUG bench build --app fleet_management
+2023-12-28 11:51:01,331 INFO /usr/local/bin/bench build --app fleet_management
+2023-12-28 11:51:07,880 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-12-28 11:51:08,137 INFO A newer version of bench is available: 5.17.2 → 5.19.0
+2023-12-28 11:54:13,664 INFO /usr/local/bin/bench start
+2023-12-28 11:54:14,361 INFO /usr/local/bin/bench schedule
+2023-12-28 11:54:14,365 INFO /usr/local/bin/bench watch
+2023-12-28 11:54:14,409 INFO /usr/local/bin/bench serve --port 8001
+2023-12-28 11:54:14,433 INFO /usr/local/bin/bench worker
+2023-12-28 12:00:02,191 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-28 18:00:01,991 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-28 18:54:44,858 INFO /usr/local/bin/bench get-app https://github.com/AgnikulCosmos/safety
+2023-12-28 18:54:44,873 LOG Getting safety
+2023-12-28 18:54:44,874 DEBUG cd ./apps && git clone https://github.com/AgnikulCosmos/safety  --depth 1 --origin upstream
+2023-12-28 18:55:22,845 LOG Installing safety
+2023-12-28 18:55:24,122 DEBUG cd /home/frappe/frappe-live && /home/frappe/frappe-live/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-live/apps/safety 
+2023-12-28 18:55:31,257 DEBUG cd /home/frappe/frappe-live/apps/safety && yarn install
+2023-12-28 18:55:37,069 DEBUG bench build --app safety
+2023-12-28 18:55:37,469 INFO /usr/local/bin/bench build --app safety
+2023-12-28 18:55:57,940 WARNING bench build --app safety executed with exit code 1
+2023-12-28 18:55:57,962 WARNING /usr/local/bin/bench get-app https://github.com/AgnikulCosmos/safety executed with exit code 1
+2023-12-28 18:55:58,529 INFO A newer version of bench is available: 5.17.2 → 5.19.0
+2023-12-28 18:57:30,432 INFO /usr/local/bin/bench start
+2023-12-28 18:57:31,206 INFO /usr/local/bin/bench serve --port 8001
+2023-12-28 18:57:31,214 INFO /usr/local/bin/bench worker
+2023-12-28 18:57:31,220 INFO /usr/local/bin/bench schedule
+2023-12-28 18:57:31,224 INFO /usr/local/bin/bench watch
+2023-12-28 18:59:14,957 INFO /usr/local/bin/bench new-site safetysite
+2023-12-28 19:10:53,589 INFO /usr/local/bin/bench new-site sugeshsite
+2023-12-28 19:12:55,999 INFO /usr/local/bin/bench set sugeshsite
+2023-12-28 19:13:04,390 INFO /usr/local/bin/bench use sugeshsite
+2023-12-28 19:13:27,139 INFO /usr/local/bin/bench install-app erpnext
+2023-12-28 19:16:51,250 INFO /usr/local/bin/bench install-app safety
+2023-12-28 19:19:14,806 INFO /usr/local/bin/bench start
+2023-12-28 19:19:15,475 INFO /usr/local/bin/bench watch
+2023-12-28 19:19:15,517 INFO /usr/local/bin/bench schedule
+2023-12-28 19:19:15,548 INFO /usr/local/bin/bench serve --port 8001
+2023-12-28 19:19:15,555 INFO /usr/local/bin/bench worker
+2023-12-29 08:31:00,830 INFO /usr/local/bin/bench start
+2023-12-29 08:31:01,497 INFO /usr/local/bin/bench serve --port 8001
+2023-12-29 08:31:01,504 INFO /usr/local/bin/bench schedule
+2023-12-29 08:31:01,505 INFO /usr/local/bin/bench watch
+2023-12-29 08:31:01,528 INFO /usr/local/bin/bench worker
+2023-12-29 12:00:01,964 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-29 12:11:55,809 INFO /usr/local/bin/bench get-app https://github.com/AgnikulCosmos/safety
+2023-12-29 12:11:55,844 LOG Getting safety
+2023-12-29 12:11:55,844 DEBUG cd ./apps && git clone https://github.com/AgnikulCosmos/safety  --depth 1 --origin upstream
+2023-12-29 12:12:27,589 LOG Installing safety
+2023-12-29 12:12:28,798 DEBUG cd /home/frappe/frappe-live && /home/frappe/frappe-live/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-live/apps/safety 
+2023-12-29 12:12:32,327 DEBUG cd /home/frappe/frappe-live/apps/safety && yarn install
+2023-12-29 12:12:33,734 DEBUG bench build --app safety
+2023-12-29 12:12:33,903 INFO /usr/local/bin/bench build --app safety
+2023-12-29 12:12:42,718 WARNING bench build --app safety executed with exit code 1
+2023-12-29 12:12:42,718 WARNING /usr/local/bin/bench get-app https://github.com/AgnikulCosmos/safety executed with exit code 1
+2023-12-29 12:12:43,061 INFO A newer version of bench is available: 5.17.2 → 5.19.0
+2023-12-29 12:13:24,878 INFO /usr/local/bin/bench install-app safety
+2023-12-29 12:13:49,103 INFO /usr/local/bin/bench remove-app safety
+2023-12-29 12:13:49,278 INFO /usr/local/bin/bench --site all list-apps --format json
+2023-12-29 12:13:51,371 WARNING /usr/local/bin/bench remove-app safety executed with exit code 1
+2023-12-29 12:13:51,638 INFO A newer version of bench is available: 5.17.2 → 5.19.0
+2023-12-29 12:14:09,851 INFO /usr/local/bin/bench uninstall-app safety
+2023-12-29 12:17:25,444 INFO /usr/local/bin/bench uninstall-app safety
+2023-12-29 12:17:44,934 INFO /usr/local/bin/bench install-app safety
+2023-12-29 13:28:41,806 INFO /usr/local/bin/bench start
+2023-12-29 13:28:47,829 INFO /usr/local/bin/bench start
+2023-12-29 13:29:10,615 INFO /usr/local/bin/bench start
+2023-12-29 13:32:03,539 INFO /usr/local/bin/bench start
+2023-12-29 13:32:04,125 INFO /usr/local/bin/bench serve --port 8001
+2023-12-29 13:32:04,133 INFO /usr/local/bin/bench schedule
+2023-12-29 13:32:04,139 INFO /usr/local/bin/bench worker
+2023-12-29 13:32:04,155 INFO /usr/local/bin/bench watch
+2023-12-29 13:40:11,305 INFO /usr/local/bin/bench get-app https://vigneshagnikul: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@github.com/AgnikulCosmos/frappe-types --resolve-deps
+2023-12-29 13:40:12,772 LOG Getting frappe-types
+2023-12-29 13:40:12,772 DEBUG cd ./apps && git clone https://vigneshagnikul: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@github.com/AgnikulCosmos/frappe-types  --depth 1 --origin upstream
+2023-12-29 13:40:13,915 WARNING cd ./apps && git clone https://vigneshagnikul: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@github.com/AgnikulCosmos/frappe-types  --depth 1 --origin upstream executed with exit code 128
+2023-12-29 13:40:13,915 WARNING /usr/local/bin/bench get-app https://vigneshagnikul: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@github.com/AgnikulCosmos/frappe-types --resolve-deps executed with exit code 1
+2023-12-29 13:40:14,156 INFO A newer version of bench is available: 5.17.2 → 5.19.0
+2023-12-29 13:42:26,116 INFO /usr/local/bin/bench get-app https://vigneshagnikul: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@github.com/AgnikulCosmos/frappe_types --branch develop --resolve-deps
+2023-12-29 13:42:27,416 LOG Getting frappe_types
+2023-12-29 13:42:27,416 DEBUG cd ./apps && git clone https://vigneshagnikul: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@github.com/AgnikulCosmos/frappe_types --branch develop --depth 1 --origin upstream
+2023-12-29 13:42:28,892 LOG Installing frappe_types
+2023-12-29 13:42:30,094 DEBUG cd /home/frappe/frappe-live && /home/frappe/frappe-live/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-live/apps/frappe_types 
+2023-12-29 13:42:34,853 DEBUG bench build --app frappe_types
+2023-12-29 13:42:35,032 INFO /usr/local/bin/bench build --app frappe_types
+2023-12-29 13:42:46,492 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-12-29 13:42:46,764 INFO A newer version of bench is available: 5.17.2 → 5.19.0
+2023-12-29 13:43:40,936 INFO /usr/local/bin/bench start
+2023-12-29 13:43:41,780 INFO /usr/local/bin/bench watch
+2023-12-29 13:43:41,782 INFO /usr/local/bin/bench worker
+2023-12-29 13:43:41,796 INFO /usr/local/bin/bench serve --port 8001
+2023-12-29 13:43:41,808 INFO /usr/local/bin/bench schedule
+2023-12-29 13:45:40,745 INFO /usr/local/bin/bench install -app frape-types
+2023-12-29 13:45:40,746 WARNING superuser privileges required for this command
+2023-12-29 13:46:34,628 INFO /usr/local/bin/bench install-app frappe-types
+2023-12-29 13:48:25,168 INFO /usr/local/bin/bench install-app frappe_types
+2023-12-29 13:48:27,401 INFO /usr/local/bin/bench config set-common-config -c frappe_types_pause_generation 1
+2023-12-29 13:48:27,759 INFO A newer version of bench is available: 5.17.2 → 5.19.0
+2023-12-29 13:48:29,867 INFO /usr/local/bin/bench config set-common-config -c frappe_types_pause_generation 0
+2023-12-29 13:48:30,128 INFO A newer version of bench is available: 5.17.2 → 5.19.0
+2023-12-29 13:50:38,684 INFO /usr/local/bin/bench install-app frappe_types
+2023-12-29 13:51:31,624 INFO /usr/local/bin/bench uninstall-app frappe_types
+2023-12-29 13:51:47,355 INFO /usr/local/bin/bench install-app frappe_types
+2023-12-29 13:51:49,565 INFO /usr/local/bin/bench config set-common-config -c frappe_types_pause_generation 1
+2023-12-29 13:51:49,864 INFO A newer version of bench is available: 5.17.2 → 5.19.0
+2023-12-29 13:51:52,148 INFO /usr/local/bin/bench config set-common-config -c frappe_types_pause_generation 0
+2023-12-29 13:51:52,406 INFO A newer version of bench is available: 5.17.2 → 5.19.0
+2023-12-29 13:52:58,638 INFO /usr/local/bin/bench start
+2023-12-29 13:52:59,516 INFO /usr/local/bin/bench serve --port 8001
+2023-12-29 13:52:59,517 INFO /usr/local/bin/bench worker
+2023-12-29 13:52:59,525 INFO /usr/local/bin/bench schedule
+2023-12-29 13:52:59,561 INFO /usr/local/bin/bench watch
+2023-12-29 13:58:46,378 INFO /usr/local/bin/bench set-config -g developer_mode 1
+2023-12-29 13:59:18,235 INFO /usr/local/bin/bench clear-cache
+2023-12-29 13:59:38,066 INFO /usr/local/bin/bench start
+2023-12-29 13:59:38,843 INFO /usr/local/bin/bench worker
+2023-12-29 13:59:38,846 INFO /usr/local/bin/bench watch
+2023-12-29 13:59:38,869 INFO /usr/local/bin/bench schedule
+2023-12-29 13:59:38,886 INFO /usr/local/bin/bench serve --port 8001
+2023-12-29 17:49:44,868 INFO /usr/local/bin/bench set-config -g developer_mode 1
+2023-12-29 17:50:06,643 INFO /usr/local/bin/bench clear-cache
+2023-12-29 17:50:31,000 INFO /usr/local/bin/bench start
+2023-12-29 17:50:31,675 INFO /usr/local/bin/bench watch
+2023-12-29 17:50:31,694 INFO /usr/local/bin/bench schedule
+2023-12-29 17:50:31,718 INFO /usr/local/bin/bench serve --port 8001
+2023-12-29 17:50:31,758 INFO /usr/local/bin/bench worker
+2023-12-29 18:00:01,917 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-30 11:23:33,028 INFO /usr/local/bin/bench start
+2023-12-30 11:23:33,817 INFO /usr/local/bin/bench watch
+2023-12-30 11:23:33,855 INFO /usr/local/bin/bench worker
+2023-12-30 11:23:33,867 INFO /usr/local/bin/bench serve --port 8001
+2023-12-30 11:23:33,882 INFO /usr/local/bin/bench schedule
+2023-12-30 12:00:02,668 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-30 13:05:13,984 INFO /usr/local/bin/bench start
+2023-12-30 13:05:14,719 INFO /usr/local/bin/bench worker
+2023-12-30 13:05:14,764 INFO /usr/local/bin/bench schedule
+2023-12-30 13:05:14,776 INFO /usr/local/bin/bench serve --port 8001
+2023-12-30 13:05:14,790 INFO /usr/local/bin/bench watch
+2023-12-30 18:00:02,027 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-02 10:44:17,362 INFO /usr/local/bin/bench start
+2024-01-02 10:44:18,035 INFO /usr/local/bin/bench worker
+2024-01-02 10:44:18,052 INFO /usr/local/bin/bench schedule
+2024-01-02 10:44:18,072 INFO /usr/local/bin/bench serve --port 8001
+2024-01-02 10:44:18,084 INFO /usr/local/bin/bench watch
+2024-01-02 12:00:02,963 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-02 15:00:29,373 INFO /usr/local/bin/bench start
+2024-01-02 15:00:30,087 INFO /usr/local/bin/bench watch
+2024-01-02 15:00:30,105 INFO /usr/local/bin/bench worker
+2024-01-02 15:00:30,115 INFO /usr/local/bin/bench schedule
+2024-01-02 15:00:30,196 INFO /usr/local/bin/bench serve --port 8001
+2024-01-02 18:00:02,785 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-02 21:23:40,967 INFO /usr/local/bin/bench start
+2024-01-02 21:23:41,950 INFO /usr/local/bin/bench worker
+2024-01-02 21:23:41,950 INFO /usr/local/bin/bench serve --port 8001
+2024-01-02 21:23:41,952 INFO /usr/local/bin/bench watch
+2024-01-02 21:23:41,992 INFO /usr/local/bin/bench schedule
+2024-01-03 11:16:57,711 INFO /usr/local/bin/bench start
+2024-01-03 11:16:58,365 INFO /usr/local/bin/bench watch
+2024-01-03 11:16:58,380 INFO /usr/local/bin/bench worker
+2024-01-03 11:16:58,386 INFO /usr/local/bin/bench schedule
+2024-01-03 11:16:58,405 INFO /usr/local/bin/bench serve --port 8001
+2024-01-03 16:21:40,008 INFO /usr/local/bin/bench start
+2024-01-03 16:21:40,727 INFO /usr/local/bin/bench schedule
+2024-01-03 16:21:40,746 INFO /usr/local/bin/bench watch
+2024-01-03 16:21:40,769 INFO /usr/local/bin/bench serve --port 8001
+2024-01-03 16:21:40,824 INFO /usr/local/bin/bench worker
+2024-01-03 18:00:02,183 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-04 10:14:10,727 INFO /usr/local/bin/bench start
+2024-01-04 10:14:11,373 INFO /usr/local/bin/bench serve --port 8001
+2024-01-04 10:14:11,377 INFO /usr/local/bin/bench watch
+2024-01-04 10:14:11,418 INFO /usr/local/bin/bench schedule
+2024-01-04 10:14:11,432 INFO /usr/local/bin/bench worker
+2024-01-04 12:00:02,314 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-04 17:25:40,751 INFO /usr/local/bin/bench start
+2024-01-04 17:25:41,765 INFO /usr/local/bin/bench serve --port 8001
+2024-01-04 17:25:41,814 INFO /usr/local/bin/bench schedule
+2024-01-04 17:25:41,859 INFO /usr/local/bin/bench watch
+2024-01-04 17:25:41,862 INFO /usr/local/bin/bench worker
+2024-01-04 18:00:02,020 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-04 19:25:12,515 INFO /usr/local/bin/bench start
+2024-01-04 19:25:13,223 INFO /usr/local/bin/bench watch
+2024-01-04 19:25:13,230 INFO /usr/local/bin/bench schedule
+2024-01-04 19:25:13,291 INFO /usr/local/bin/bench worker
+2024-01-04 19:25:13,296 INFO /usr/local/bin/bench serve --port 8001
+2024-01-04 21:40:01,889 INFO /usr/local/bin/bench start
+2024-01-04 21:40:02,548 INFO /usr/local/bin/bench watch
+2024-01-04 21:40:02,585 INFO /usr/local/bin/bench worker
+2024-01-04 21:40:02,594 INFO /usr/local/bin/bench schedule
+2024-01-04 21:40:02,597 INFO /usr/local/bin/bench serve --port 8001
+2024-01-05 00:00:02,786 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-05 12:34:20,464 INFO /usr/local/bin/bench start
+2024-01-05 12:34:21,297 INFO /usr/local/bin/bench watch
+2024-01-05 12:34:21,300 INFO /usr/local/bin/bench worker
+2024-01-05 12:34:21,303 INFO /usr/local/bin/bench serve --port 8001
+2024-01-05 12:34:21,335 INFO /usr/local/bin/bench schedule
+2024-01-05 18:00:02,349 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-05 19:03:19,010 INFO /usr/local/bin/bench start
+2024-01-05 19:03:19,784 INFO /usr/local/bin/bench schedule
+2024-01-05 19:03:19,795 INFO /usr/local/bin/bench serve --port 8001
+2024-01-05 19:03:19,907 INFO /usr/local/bin/bench worker
+2024-01-05 19:03:19,946 INFO /usr/local/bin/bench watch

@@ -1,0 +1,68 @@
+Please specify --site sitename
+Please specify --site sitename
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _53ec9d8bd083b12e -p********** _53ec9d8bd083b12e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sugeshsite/private/backups/20231229_120006-sugeshsite-database.sql.gz
+
+Backup Summary for sugeshsite at 2023-12-29 12:00:11.941676
+Config  : ./sugeshsite/private/backups/20231229_120006-sugeshsite-site_config_backup.json 94.0B
+Database: ./sugeshsite/private/backups/20231229_120006-sugeshsite-database.sql.gz         1.1MiB
+Backup for Site sugeshsite has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _53ec9d8bd083b12e -p********** _53ec9d8bd083b12e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sugeshsite/private/backups/20231229_180006-sugeshsite-database.sql.gz
+
+Backup Summary for sugeshsite at 2023-12-29 18:00:16.515800
+Config  : ./sugeshsite/private/backups/20231229_180006-sugeshsite-site_config_backup.json 94.0B
+Database: ./sugeshsite/private/backups/20231229_180006-sugeshsite-database.sql.gz         1.1MiB
+Backup for Site sugeshsite has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _53ec9d8bd083b12e -p********** _53ec9d8bd083b12e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sugeshsite/private/backups/20231230_120007-sugeshsite-database.sql.gz
+
+Backup Summary for sugeshsite at 2023-12-30 12:00:15.426603
+Config  : ./sugeshsite/private/backups/20231230_120007-sugeshsite-site_config_backup.json 94.0B
+Database: ./sugeshsite/private/backups/20231230_120007-sugeshsite-database.sql.gz         1.1MiB
+Backup for Site sugeshsite has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _53ec9d8bd083b12e -p********** _53ec9d8bd083b12e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sugeshsite/private/backups/20231230_180005-sugeshsite-database.sql.gz
+
+Backup Summary for sugeshsite at 2023-12-30 18:00:18.593334
+Config  : ./sugeshsite/private/backups/20231230_180005-sugeshsite-site_config_backup.json 94.0B
+Database: ./sugeshsite/private/backups/20231230_180005-sugeshsite-database.sql.gz         1.1MiB
+Backup for Site sugeshsite has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _53ec9d8bd083b12e -p********** _53ec9d8bd083b12e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sugeshsite/private/backups/20240102_120027-sugeshsite-database.sql.gz
+
+Backup Summary for sugeshsite at 2024-01-02 12:00:49.968835
+Config  : ./sugeshsite/private/backups/20240102_120027-sugeshsite-site_config_backup.json 94.0B
+Database: ./sugeshsite/private/backups/20240102_120027-sugeshsite-database.sql.gz         1.1MiB
+Backup for Site sugeshsite has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _53ec9d8bd083b12e -p********** _53ec9d8bd083b12e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sugeshsite/private/backups/20240102_180007-sugeshsite-database.sql.gz
+
+Backup Summary for sugeshsite at 2024-01-02 18:00:35.134412
+Config  : ./sugeshsite/private/backups/20240102_180007-sugeshsite-site_config_backup.json 94.0B
+Database: ./sugeshsite/private/backups/20240102_180007-sugeshsite-database.sql.gz         1.1MiB
+Backup for Site sugeshsite has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _53ec9d8bd083b12e -p********** _53ec9d8bd083b12e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sugeshsite/private/backups/20240103_180005-sugeshsite-database.sql.gz
+
+Backup Summary for sugeshsite at 2024-01-03 18:00:13.166690
+Config  : ./sugeshsite/private/backups/20240103_180005-sugeshsite-site_config_backup.json 94.0B
+Database: ./sugeshsite/private/backups/20240103_180005-sugeshsite-database.sql.gz         1.1MiB
+Backup for Site sugeshsite has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _53ec9d8bd083b12e -p********** _53ec9d8bd083b12e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sugeshsite/private/backups/20240104_120005-sugeshsite-database.sql.gz
+
+Backup Summary for sugeshsite at 2024-01-04 12:00:15.885382
+Config  : ./sugeshsite/private/backups/20240104_120005-sugeshsite-site_config_backup.json 94.0B
+Database: ./sugeshsite/private/backups/20240104_120005-sugeshsite-database.sql.gz         1.1MiB
+Backup for Site sugeshsite has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _53ec9d8bd083b12e -p********** _53ec9d8bd083b12e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sugeshsite/private/backups/20240104_180005-sugeshsite-database.sql.gz
+
+Backup Summary for sugeshsite at 2024-01-04 18:00:15.452441
+Config  : ./sugeshsite/private/backups/20240104_180005-sugeshsite-site_config_backup.json 94.0B
+Database: ./sugeshsite/private/backups/20240104_180005-sugeshsite-database.sql.gz         1.1MiB
+Backup for Site sugeshsite has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _53ec9d8bd083b12e -p********** _53ec9d8bd083b12e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sugeshsite/private/backups/20240105_000009-sugeshsite-database.sql.gz
+
+Backup Summary for sugeshsite at 2024-01-05 00:00:30.210052
+Config  : ./sugeshsite/private/backups/20240105_000009-sugeshsite-site_config_backup.json 94.0B
+Database: ./sugeshsite/private/backups/20240105_000009-sugeshsite-database.sql.gz         1.1MiB
+Backup for Site sugeshsite has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _53ec9d8bd083b12e -p********** _53ec9d8bd083b12e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sugeshsite/private/backups/20240105_180006-sugeshsite-database.sql.gz
+
+Backup Summary for sugeshsite at 2024-01-05 18:00:12.394328
+Config  : ./sugeshsite/private/backups/20240105_180006-sugeshsite-site_config_backup.json 94.0B
+Database: ./sugeshsite/private/backups/20240105_180006-sugeshsite-database.sql.gz         1.1MiB
+Backup for Site sugeshsite has been successfully completed

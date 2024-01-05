@@ -1,0 +1,18 @@
+2024-01-02 16:52:51,884 ERROR frappe New Exception collected with id: 2024-01-02 16:52:51.712388-127.0.0.1-dbc
+Site: sugeshsite
+Form Dict: {'employee_id': '', 'employee_name': '', 'reporting': '', 'image': {}}
+2024-01-02 16:56:58,607 ERROR frappe New Exception collected with id: 2024-01-02 16:56:58.596268-127.0.0.1-cdf
+Site: sugeshsite
+Form Dict: {'employee_id': '', 'employee_name': '', 'reporting': '', 'image': {}}
+2024-01-02 16:57:09,439 ERROR frappe New Exception collected with id: 2024-01-02 16:57:09.426150-127.0.0.1-bcf
+Site: sugeshsite
+Form Dict: {'employee_id': '', 'employee_name': '', 'reporting': '', 'image': {}}
+2024-01-02 17:01:08,267 ERROR frappe New Exception collected with id: 2024-01-02 17:01:08.259963-127.0.0.1-b0d
+Site: sugeshsite
+Form Dict: {'employee_id': '', 'employee_name': '', 'reporting': '', 'image': {}}
+2024-01-02 17:01:14,560 ERROR frappe New Exception collected with id: 2024-01-02 17:01:14.554195-127.0.0.1-aa1
+Site: sugeshsite
+Form Dict: {'employee_id': '', 'employee_name': 'fff', 'reporting': '', 'image': {}}
+2024-01-02 17:03:01,504 ERROR frappe New Exception collected with id: 2024-01-02 17:03:01.495626-127.0.0.1-03a
+Site: sugeshsite
+Form Dict: {'employee_id': '', 'employee_name': 'ddd', 'reporting': '', 'image': {}}
